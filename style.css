@@ -2,10 +2,7 @@
 	margin-top: 10px;
 	margin-left: 15%;
 	margin-right: 15%;
-}
-
-.about {
-	font-family: 'Hind', sans-serif;
+	height: 100%;
 }
 
 ul {
@@ -33,6 +30,11 @@ li {
 }
 
 p {
+	font-family: 'Hind', sans-serif;
+	margin-top: 0px;
+}
+
+b {
 	font-family: 'Hind', sans-serif;
 }
 
