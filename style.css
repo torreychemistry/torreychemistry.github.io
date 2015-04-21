@@ -72,3 +72,8 @@ hr {
 	color: black;
 }
 
+#hofTitle {
+	font-size: 125%;
+	font-family: 'Lusitana', sans-serif;
+	text-align: center;
+}
