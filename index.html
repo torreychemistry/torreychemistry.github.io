@@ -1,84 +1,95 @@
+<!DOCTYPE html>
+<!--
+made with <3 by the
+..........      ......     ..........
+..........    .........    ..........
+   ....      ....   ....      ....
+   ....     ....              ....
+   ....     ....              ....
+   ....      ....   ....      ....
+   ....       .........       ....
+   ....         ......        ....
+-->
 <html>
-<head>
-	<title>TCT</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="http://fonts.googleapis.com/css?family=Lusitana" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Hind" rel="stylesheet" type="text/css">
-	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<head>
+		<title>TCT</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="http://fonts.googleapis.com/css?family=Lusitana" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Hind" rel="stylesheet" type="text/css">
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	  	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script>
+		$(function() {
+			$( "#tabs" ).tabs();
+		});
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div id="header">
+				<a href="mailto:torreychemistry@gmail.com"><span class="glyphicon glyphicon-envelope"></span> email us</a>
+			</div>
+			<h1 id="title">Torrey<br/><font color="b17fff">Chemistry</font><br/>Tournament</h1>
+			<ul id="tabs">
+				<li><a href="#about"><h2>About</h2></a></li>
+				<li><a href="#who"><h2>Who</h2></a></li>
+				<li><a href="#competition"><h2>Competition</h2></a></li>
+			</ul>
+			<hr/>
+			<div id="about">
+				<ul>
+					<p><font color="b17fff"><b>The current contest is open! You can navigate to the competition tab to find out details. The contest window will close on 4/27/15, at 11:59pm PST.</b></font></p>
+					<li>What is this?</li>
+					<p>The Torrey Chemistry Tournament is a competition that was started by a couple of high school students that are interested in chemistry. All pre-collegiate students are allowed to take the exam. It's relatively new, so we encourage you to share it with your friends.</p>
+					<li>Neat - how do I get started?</li>
+					<p>When one of the testing windows opens, you can download the test. Before the same testing window closes, send your submission to <a href="mailto:torreychemistry@gmail.com">torreychemistry@gmail.com</a> with a proper submission title. Learn how the competition works at the competition tab.</p>
+					<li>Why is this a Github page?</li>
+					<p>Reliable hosting, and for free. I require no more at the moment.</p>
+					<li>I'm no good at chemistry, but I like the idea.</li>
+					<p>We're looking for supporters. If you have any ideas, suggestions, or resources for improvement - whether it be in website design, problem writing, or anything else - send us an email!</p>
+					<!-- What do I get? embed link of Charlie and the Chocolate Factory, YOU GET NOTHING -->
+			</div>
+			<div id="who">
+				<ul>
+					<li>Who are we?</li>
+					<p>
+					Richard is the guy that runs this website. He wrote his own bio. Others may not have.
+					<br/>
+					Nutmegan is one of the problem writers. She is very nutty sometimes. She also likes nuts and nutmeg.
+					<br/>
+					Maguro is one of the problem makers. He likes tuna, and Barbie. On some days, he adopts an alternate female persona named June.
+					<br/>
+					Abhijit finds it ferric that he's been asked to write a bio for chem. He takes bribes.
+					<br/>
+					Daniel is a /fit/izen who will stop at nothing to ensure his gainz. He prays daily to zyzz so that he may be granted good muscles and protein and hopes to one day bench 4 pl8.
+					</p>
+				</ul>
+			</div>
+			<div id="competition">
+				<ul>
+					<li>Where's the test?</li>
+					<p>The most recent contest opened on 4/20. It will close a week from then. You can grab a copy of the test <a href="Torrey_Chemistry_Tournament_0.pdf" download>here.</a> The IR spectrum is kind of hard to see, so you can download a clearer copy of that <a href="IR spec.PNG">here.</a></p>
+					<li>What's the test format?</li>
+					<p>The exam consists of five free response questions comprised of multiple parts. Please write clear solutions in your responses. You must show work in order to receive credit.</p>
+					<p>The questions are not designed to be trivial, and span a wide variety of topics. However, resources such as textbooks and <a href="www.wikipedia.org">Wikipedia</a> are available for use during the exam. </p>
+					<p>All competitors are expected to follow a code of honor. Disqualification may occur on reasonable grounds, such as, but not limited to: collaboration with other people, sharing answers, and directly copying materials from online resources without proper citation. </p>
+					<li>One of the questions is wrong!</li>
+					<p>We're human. We make errors. Send us an email with an appropriate title and we'll take a peek.</p>
+					<li>How do I submit my work?</li>
+					<p>Please send your responses to <a href="mailto:torreychemistry@gmail.com">torreychemistry@gmail.com</a>. Accepted forms include files with .pdf, .txt<span id="oxford"><a target="_blank" href="https://www.youtube.com/watch?v=P_i1xk07o4g">,</a></span> and .doc/x extensions. A good idea is to practice using the markup language LaTeX.</p>
+					<p>You must include your name, the name of your school, and your grade.</p>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<!-- google analytics! eek -->
 	<script>
-	$(function() {
-		$( "#tabs" ).tabs();
-	});
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-62086435-1', 'auto');
+	  ga('send', 'pageview');
 	</script>
-</head>
-<body>
-<div class="wrapper">
-	<div id="header">
-		<a href="mailto:torreychemistry@gmail.com"><span class="glyphicon glyphicon-envelope"></span> email us</a>
-	</div>
-	<h1>Torrey<br/><font color="b17fff">Chemistry</font><br/>Tournament</h1>
-	<div id="tabs">
-		<ul>
-			<li><a href="#about"><h3>About</h3></a></li>
-			<li><a href="#who"><h3>Who</h3></a></li>
-			<li><a href="#competition"><h3>Competition</h3></a></li>
-		</ul>
-		<hr/>
-		<div id="about">
-			<p><font color="b17fff"><b>The current contest is open! You can navigate to the competition tab to find out details. The contest window will close on 4/27/15, at 11:59pm PST.</b></font></p>
-			<b>&bull; What is this?</b>
-			<p>The Torrey Chemistry Tournament is a competition that was started by a couple of high school students that are interested in chemistry. All pre-collegiate students are allowed to take the exam. It's relatively new, so we encourage you to share it with your friends.</p>
-			<b>&bull; Neat - how do I get started?</b>
-			<p>When one of the testing windows opens, you can download the test. Before the same testing window closes, send your submission to <a href="mailto:torreychemistry@gmail.com">torreychemistry@gmail.com</a> with a proper submission title. Learn how the competition works at the competition tab.</p>
-			<b>&bull; Why is this a Github Page?</b>
-			<p>Reliable hosting, and for free. I require no more at the moment.</p>
-			<b>&bull; I'm no good at chemistry, but I like the idea.</b>
-			<p>We're looking for supporters. If you have any ideas, suggestions, or resources for improvement - whether it be in website design, problem writing, or anything else - send us an email!</p>
-		</div>
-		<div id="who">
-			<b>&bull; Who are we?</b>
-			<p>
-			Richard is the guy that runs this website. He wrote his own bio. Others may not have.
-			</p>
-			<p>
-			Nutmegan is one of the problem writers. She is very nutty sometimes. She also likes nuts and nutmeg.
-			</p>
-			<p>
-			Maguro is one of the problem makers. He likes tuna, and Barbie. On some days, he adopts an alternate female persona named June.
-			</p>
-			<p>
-			Abhijit finds it ferric that he's been asked to write a bio for chem. He takes bribes.
-			</p>
-			<p>
-			Daniel is a /fit/izen who will stop at nothing to ensure his gainz. He prays daily to zyzz so that he may be granted good muscles and protein and hopes to one day bench 4 pl8.
-			</p>
-			<div id="hofTitle">Hall of Fame</div>
-		</div>
-		<div id="competition">
-			<b>&bull; Where's the test?</b>
-			<p>The most recent contest opened on 4/20. It will close a week from then. You can grab a copy of the test <a href="Torrey_Chemistry_Tournament_0.pdf" download>here.</a> The IR spectrum is kind of hard to see, so you can download a clearer copy of that <a href="IR spec.PNG">here.</a></p>
-			<b>&bull; What is the test format?</b>
-			<p>The exam consists of five free response questions comprised of multiple parts. Please write clear solutions in your responses. You must show work in order to receive credit.</p>
-			<p>The questions are not designed to be trivial, and span a wide variety of topics. However, resources such as textbooks and <a href="www.wikipedia.org">Wikipedia</a> are available for use during the exam. </p>
-			<p>All competitors are expected to follow a code of honor. Disqualification may occur on reasonable grounds, such as, but not limited to: collaboration with other people, sharing answers, and directly copying materials from online resources without proper citation. </p>
-			<b>&bull; One of the questions is wrong!</b>
-			<p>We're human. We make errors. Send us an email with an appropriate title and we'll take a peek.</p>
-			<b>&bull; How do I submit my work?</b>
-			<p>Please send your responses to <a href="mailto:torreychemistry@gmail.com">torreychemistry@gmail.com</a>. Accepted forms include files with .pdf, .txt<span id="oxfordComma"><a target="_blank" href="https://www.youtube.com/watch?v=P_i1xk07o4g">,</a></span> and .doc/x extensions. A good idea is to practice using the markup language LaTeX.</p>
-		</div>
-	</div>
-</div>
-</body>
-<!-- google analytics! eek -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-62086435-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </html>
