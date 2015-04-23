@@ -25,27 +25,28 @@
 /*
 */
 
-#tabs {
+#navbar {
 	text-align: center;
 }
 
-#tabs li {
+#navbar li {
 	display: inline;
 	padding: 0 20px 0 20px;
 }
 
-#tabs a {
+#navbar a {
 	text-decoration: none;
 	color: #000000;
 }
 
-#tabs a:hover {
+#navbar a:hover {
 	color: #31007f;
 }
 
-#tabs h2 {
+#navbar h2 {
 	display: inline;
 	font-family: 'Lusitana', serif;
+	font-size: 1.3em;
 }
 
 /*
